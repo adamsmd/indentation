@@ -1,5 +1,5 @@
 name:                indentation-trifecta
-version:             0.1.0
+version:             0.1.1
 synopsis:            Indentation sensitive parsing combinators for Trifecta
 description:         Indentation sensitive parsing combinators for Trifecta.
                      .                     
@@ -27,20 +27,20 @@ build-type:          Simple
 cabal-version:       >=1.10
 extra-source-files:  CHANGELOG.md
 
-homepage:            https://bitbucket.org/adamsmd/indentation
-bug-reports:         https://bitbucket.org/adamsmd/indentation/issues
-tested-with:         GHC == 7.8.4, GHC == 7.10.3, GHC == 8.0.1, GHC == 8.2.1
+homepage:            https://github.com/adamsmd/indentation
+bug-reports:         https://github.com/adamsmd/indentation/issues
+tested-with:         GHC == 7.8.4, GHC == 7.10.3, GHC == 8.0.1, GHC == 8.2.1, GHC == 8.10.1
 
 source-repository head
   type:                git
-  location:            https://bitbucket.org/adamsmd/indentation.git
+  location:            https://github.com/adamsmd/indentation.git
 
 library
   hs-source-dirs:      src
-  build-depends:       base >=4.6 && <4.13,
+  build-depends:       base >=4.6 && <4.16,
                        mtl >=2.1,
-                       indentation-core < 0.0.1,
-                       trifecta < 2 || == 2,
+                       indentation-core > 0.0.0.2,
+                       trifecta < 2.3,
                        parsers >=0.10 && <0.13
   exposed-modules:   Text.Trifecta.Indentation
 
