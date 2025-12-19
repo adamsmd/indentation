@@ -2,7 +2,7 @@ name:                indentation
 version:             0.3.4
 synopsis:            Indentation sensitive parsing combinators for Parsec and Trifecta
 description:         Indentation sensitive parsing combinators for Parsec and Trifecta.
-                     .                     
+                     .
                      This package provides both the Parsec and
                      Trifecta combinators.  It is mainly useful for
                      backward compatability with older versions of
@@ -31,7 +31,7 @@ extra-source-files:  CHANGELOG.md
 
 homepage:            https://github.com/adamsmd/indentation
 bug-reports:         https://github.com/adamsmd/indentation/issues
-tested-with:         GHC == 7.8.4, GHC == 7.10.3, GHC == 8.0.1, GHC == 8.2.1, GHC == 8.4.3, GHC == 8.6.1, GHC == 8.10.1
+tested-with:         GHC == 7.8.4, GHC == 7.10.3, GHC == 8.0.1, GHC == 8.2.1, GHC == 8.4.3, GHC == 8.6.1, GHC == 8.10.1, GHC == 9.4.8, GHC == 9.12.2
 
 source-repository head
   type:                git
