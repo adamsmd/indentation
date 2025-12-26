@@ -13,6 +13,7 @@ module Text.Trifecta.Indentation (
   ) where
 
 import Control.Applicative
+import Control.Monad (MonadPlus)
 import Control.Monad.State.Lazy as LazyState
 import Control.Monad.State.Strict as StrictState
 
